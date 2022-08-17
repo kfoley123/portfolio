@@ -1,8 +1,9 @@
 import React from "react";
+import "./Projects.css";
 
 export default function Projects() {
     return (
-        <section id="projects">
+        <section id="projects" className="sectionTop">
             <header className="major"></header>
             <ul className="features">
                 <li>
