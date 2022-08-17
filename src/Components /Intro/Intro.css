@@ -1,0 +1,36 @@
+.mainSection {
+    height: 400px;
+    padding: 93px 93px 56px 93px;
+}
+
+.spotlight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hRule {
+    background: linear-gradient(to right, #8968ac, #fcc5f9);
+    height: 3px;
+    border: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 512px;
+    color: #636363;
+    font-family: "Anek Latin", sans-serif;
+}
+
+.content > p {
+    font-size: larger;
+}
+
+.image {
+    border: 1px solid #e7e1e1;
+    padding: 5px;
+    border-radius: 50%;
+    width: 256px;
+    height: 256px;
+}

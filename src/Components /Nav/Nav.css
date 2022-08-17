@@ -1,6 +1,8 @@
 .nav {
     background-color: #f7f7f7;
+    position: -webkit-sticky;
     position: sticky;
+    top: 0;
 }
 
 .navList {
@@ -25,6 +27,7 @@
     text-decoration: none;
     color: inherit;
     font-family: "Anek Latin", sans-serif;
+    color: #636363;
 }
 
 .selected {

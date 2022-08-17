@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
     return (
         <footer>
-            <section>
+            <section id="links">
                 <h2>dfsdga</h2>
                 <p>egbfriegthei fgiwg </p>
             </section>
