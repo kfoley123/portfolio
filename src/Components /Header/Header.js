@@ -8,7 +8,7 @@ export default function Header() {
                 <img src="" alt=""></img>
             </span>
             <h1>Kortney Foley</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+            <p>Self-taught Full Stack developer.</p>
         </header>
     );
 }
