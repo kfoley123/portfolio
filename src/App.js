@@ -1,5 +1,5 @@
 import "./App.css";
-import Nav from "./Components /Nav";
+import Nav from "./Components /Nav/Nav";
 import Header from "./Components /Header/Header";
 import About from "./Components /About";
 import Projects from "./Components /Projects";

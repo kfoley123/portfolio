@@ -1,0 +1,32 @@
+.nav {
+    background-color: #f7f7f7;
+    position: sticky;
+}
+
+.navList {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    width: 500px;
+    margin: auto;
+}
+
+.navList > li {
+    padding: 10px;
+    list-style: none;
+    border-radius: 9px;
+}
+
+.navList > li:hover {
+    background-color: #e7e3e3;
+}
+
+.navList > li > a {
+    text-decoration: none;
+    color: inherit;
+    font-family: "Anek Latin", sans-serif;
+}
+
+.selected {
+    background-color: white;
+}

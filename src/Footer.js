@@ -19,7 +19,6 @@ export default function Footer() {
                 </dl>
                 <ul className="icons">
                     <li>
-                        {" "}
                         <a href="#" class="icon brands fa-github alt">
                             <span class="label">GitHub</span>
                         </a>
