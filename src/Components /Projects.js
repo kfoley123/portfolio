@@ -11,22 +11,22 @@ export default function Projects() {
                     <p>
                         Hits an anime API that allows you to search for anime
                         titles by keyword, rating, production type and/or airing
-                        status.{" "}
+                        status.
                     </p>
                 </li>
                 <li>
                     <span className="icon"></span>
-                    <h3></h3>
+                    <h3>"Lorem ipsum dolor sit ame</h3>
                     <p></p>
                 </li>
                 <li>
                     <span className="icon"></span>
-                    <h3></h3>
+                    <h3>"Lorem ipsum dolor sit ame</h3>
                     <p></p>
                 </li>
                 <li>
                     <span className="icon"></span>
-                    <h3></h3>
+                    <h3>"Lorem ipsum dolor sit ame</h3>
                     <p></p>
                 </li>
             </ul>
