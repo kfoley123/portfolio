@@ -1,0 +1,11 @@
+.header {
+    width: 300px;
+    margin: 130px auto 75px auto;
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Anek Latin", sans-serif;
+}
+
+.header > p {
+    font-size: x-large;
+}
