@@ -1,5 +1,6 @@
 import React from "react";
 import "./Skills.css";
+import HTML from "../../Images/HTML.png";
 
 export default function Skills() {
     return (
@@ -11,7 +12,7 @@ export default function Skills() {
             </header>
             <ul className="skills">
                 <li className="styleA">
-                    <span></span>
+                    <img className="skillsIcon" src={HTML} alt="logo" />
                     <strong>HTML</strong>
                 </li>
                 <li className="styleB">
@@ -31,11 +32,18 @@ export default function Skills() {
                     <strong>Python</strong>
                 </li>
             </ul>
-            <p className="content">
-                I started by making a few basic projects in python. From there I
-                delevoped my knowledge of HTML, CSS and Javascript. More
-                recently I've been focusing on building apps in React, focusing
-                on those that manipulate data from APIs.
+            <p className="skillsContent">
+                I started learning how to program by making a text-based
+                choose-your-own-adventure adventure game in python. From there I
+                delevoped my knowledge of HTML, CSS and Javascript by doing some
+                online challenges (JS30, FreeCodeCamp and Scrimba) along with
+                some of my own projects. So far I've completed almost 40
+                projects in total. More recently I've been focusing on building
+                apps in React, especially those that manipulate data from APIs.
+                My most recent project is the Pokemon Card database (linked
+                above), which utilizes a React frontend with a Django REST API
+                and a SQLite database. I'm very eager to continue developing my
+                skills and becoming the best programmer I can!
             </p>
         </section>
     );

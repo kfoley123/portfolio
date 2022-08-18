@@ -39,3 +39,24 @@
 .styleE {
     background-color: #e48dcd;
 }
+
+.skillsContent {
+    padding-top: 30px;
+    width: 1000px;
+    column-width: 150px;
+    margin: auto;
+    text-align: justify;
+    column-count: 2;
+    color: #636363;
+    font-family: "Anek Latin", sans-serif;
+    font-size: larger;
+}
+
+.skillsIcon {
+    width: 80px;
+    margin: 40px;
+}
+
+.skills > li {
+    text-align: center;
+}
