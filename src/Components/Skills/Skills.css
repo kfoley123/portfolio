@@ -1,4 +1,41 @@
-.sectionTop {
+.skillsSection {
     border-top: solid 1px #e2e0e0;
-    height: 400px;
+    height: 600px;
+}
+
+.skillsHeader {
+    color: #636363;
+    font-family: "Anek Latin", sans-serif;
+    text-align: center;
+    font-size: x-large;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.skills > li {
+    list-style: none;
+    width: 200px;
+    height: 200px;
+}
+
+.styleA {
+    background-color: #8de4d0;
+}
+
+.styleB {
+    background-color: #8dcde4;
+}
+
+.styleC {
+    background-color: #8da1e4;
+}
+.styleD {
+    background-color: #a58de4;
+}
+.styleE {
+    background-color: #e48dcd;
 }
