@@ -24,7 +24,7 @@
 }
 
 .content > header > h2 {
-    font-size: xx-large;
+    font-size: 50px;
 }
 
 .content > p {
@@ -37,4 +37,5 @@
     border-radius: 50%;
     width: 300px;
     height: 300px;
+    object-fit: cover;
 }

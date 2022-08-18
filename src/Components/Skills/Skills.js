@@ -1,8 +1,9 @@
 import React from "react";
+import "./Skills.css";
 
 export default function Skills() {
     return (
-        <section id="skills">
+        <section id="skills" className="sectionTop">
             <header className="major">
                 <h2>Skills</h2>
                 <p></p>

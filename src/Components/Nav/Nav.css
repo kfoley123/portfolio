@@ -2,6 +2,8 @@
     background-color: #f7f7f7;
     position: sticky;
     top: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .navList {
