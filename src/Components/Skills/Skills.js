@@ -1,6 +1,5 @@
 import React from "react";
 import "./Skills.css";
-import HTML from "../../Images/HTML.png";
 
 export default function Skills() {
     return (
@@ -8,42 +7,52 @@ export default function Skills() {
             <header className="skillsHeader">
                 <h1>Skills</h1>
                 <p></p>
-                <hr className="horizontalRule"></hr>
+                <hr className="horizontalRuleB"></hr>
             </header>
             <ul className="skills">
                 <li className="styleA">
-                    <img className="skillsIcon" src={HTML} alt="logo" />
+                    <i class="devicon-html5-plain"></i>
                     <strong>HTML</strong>
                 </li>
                 <li className="styleB">
-                    <span></span>
+                    <i class="devicon-css3-plain"></i>
                     <strong>CSS</strong>
                 </li>
                 <li className="styleC">
-                    <span></span>
+                    <i class="devicon-javascript-plain"></i>
                     <strong>Javascript</strong>
                 </li>
                 <li className="styleD">
-                    <span></span>
+                    <i class="devicon-react-original"></i>
                     <strong>React</strong>
                 </li>
                 <li className="styleE">
-                    <span></span>
+                    <i class="devicon-python-plain"></i>
                     <strong>Python</strong>
+                </li>
+                <li className="styleF">
+                    <i class="devicon-django-plain"></i>
+                    <strong>Django</strong>
                 </li>
             </ul>
             <p className="skillsContent">
                 I started learning how to program by making a text-based
-                choose-your-own-adventure adventure game in python. From there I
-                delevoped my knowledge of HTML, CSS and Javascript by doing some
-                online challenges (JS30, FreeCodeCamp and Scrimba) along with
-                some of my own projects. So far I've completed almost 40
-                projects in total. More recently I've been focusing on building
-                apps in React, especially those that manipulate data from APIs.
-                My most recent project is the Pokemon Card database (linked
-                above), which utilizes a React frontend with a Django REST API
-                and a SQLite database. I'm very eager to continue developing my
-                skills and becoming the best programmer I can!
+                choose-your-own-adventure game in Python. Its a far cry from
+                Game of the Year, but but made me realize I wanted to become a
+                programmer. Realizing that, I more seriously started delevoping
+                my knowledge of HTML, CSS and Javascript with online challenges
+                such as JS30, FreeCodeCamp and Scrimba. I also continued making
+                more projects from scratch. I've completed almost 40 projects so
+                far!
+                <br></br>
+                More recently I've been building apps with React, focusing on
+                those that manipulate data from APIs. My most recent project is
+                a Pokemon Card database (linked above), which utilizes a React
+                frontend with a Django REST API and a SQLite database. Learning
+                front end as well as back end was a huge goal for me, so that
+                was a satisfying project to have under my belt. I'm very eager
+                to continue learning and developing my skills to become the best
+                programmer I can!
             </p>
         </section>
     );

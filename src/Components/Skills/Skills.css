@@ -1,6 +1,6 @@
 .skillsSection {
     border-top: solid 1px #e2e0e0;
-    height: 600px;
+    height: 700px;
 }
 
 .skillsHeader {
@@ -14,12 +14,13 @@
     display: flex;
     justify-content: center;
     padding-top: 60px;
+    margin-right: 40px;
 }
 
 .skills > li {
     list-style: none;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
 }
 
 .styleA {
@@ -40,6 +41,10 @@
     background-color: #e48dcd;
 }
 
+.styleF {
+    background-color: #e48d8d;
+}
+
 .skillsContent {
     padding-top: 30px;
     width: 1000px;
@@ -50,13 +55,31 @@
     color: #636363;
     font-family: "Anek Latin", sans-serif;
     font-size: larger;
-}
-
-.skillsIcon {
-    width: 80px;
-    margin: 40px;
+    font-weight: 300;
 }
 
 .skills > li {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills > li > strong {
+    color: white;
     text-align: center;
+    font-family: "Anek Latin", sans-serif;
+}
+
+i {
+    font-size: 100px;
+    padding-bottom: 5px;
+    margin: 40px 40px 0 40px;
+    color: white;
+}
+
+.horizontalRuleB {
+    background: linear-gradient(to right, #8de4d0, #8dcde4, #a58de4, #e48d8d);
+    height: 3px;
+    width: 200px;
+    border: none;
+    margin: auto;
 }
