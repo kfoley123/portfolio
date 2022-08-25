@@ -1,8 +1,17 @@
 body {
-    background-image: linear-gradient(#8968ac, #fcc5f9);
+    background-image: linear-gradient(#8968ac, #f99ef4);
 }
 
 .contentWrapper {
     margin: 0 5rem;
     background-color: white;
+    border-radius: 10px;
+}
+
+.horizontalRule {
+    background: linear-gradient(to right, #8968ac, #fcc5f9);
+    height: 3px;
+    width: 200px;
+    border: none;
+    margin: auto;
 }
