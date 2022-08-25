@@ -3,7 +3,6 @@ body {
 }
 
 .contentWrapper {
-    margin: 0 5rem;
     background-color: white;
     border-radius: 10px;
 }
@@ -14,4 +13,5 @@ body {
     width: 200px;
     border: none;
     margin: auto;
+    margin: 0 5rem;
 }
