@@ -7,15 +7,15 @@
 .navList {
     display: flex;
     justify-content: space-between;
+    margin: auto;
     padding: 10px 40px;
     width: 500px;
-    margin: auto;
 }
 
 .navList > li {
-    padding: 10px;
-    list-style: none;
     border-radius: 9px;
+    list-style: none;
+    padding: 10px;
 }
 
 .navList > li:hover {
@@ -23,11 +23,10 @@
 }
 
 .navList > li > a {
-    text-decoration: none;
-    color: inherit;
-    font-family: "Anek Latin", sans-serif;
     color: #636363;
+    font-family: "Anek Latin", sans-serif;
     font-size: x-large;
+    text-decoration: none;
 }
 
 .selected {

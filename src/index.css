@@ -9,9 +9,9 @@ body {
 
 .horizontalRule {
     background: linear-gradient(to right, #8968ac, #fcc5f9);
-    height: 3px;
-    width: 200px;
     border: none;
+    height: 3px;
     margin: auto;
     margin: 0 5rem;
+    width: 200px;
 }

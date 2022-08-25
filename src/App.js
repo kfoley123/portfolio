@@ -1,4 +1,3 @@
-import "./App.css";
 import Nav from "./Components/Nav/Nav";
 import Header from "./Components/Header/Header";
 import Intro from "./Components/Intro/Intro";
