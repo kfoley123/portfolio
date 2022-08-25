@@ -3,6 +3,7 @@ import "./Footer.css";
 import emailIcon from "../../Images/emailIcon.png";
 
 export default function Footer() {
+    let year = new Date().getFullYear();
     return (
         <footer>
             <section id="links">
@@ -46,7 +47,7 @@ export default function Footer() {
                     questions or follow-up feel free to reach out to me via any
                     of the channels linked above.
                 </span>
-                <p>Copyright ⓒ 2022 Kortney Foley</p>
+                <p>Copyright ⓒ {year} Kortney Foley</p>
             </section>
         </footer>
     );
