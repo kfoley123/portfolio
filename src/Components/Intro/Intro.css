@@ -1,0 +1,40 @@
+.mainSection {
+    height: 400px;
+    padding: 93px 93px 56px 93px;
+}
+
+.spotlight {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hRule {
+    background: linear-gradient(to right, #8968ac, #fcc5f9);
+    border: none;
+    height: 3px;
+}
+
+.content {
+    color: #636363;
+    display: flex;
+    flex-direction: column;
+    font-family: "Anek Latin", sans-serif;
+    width: 512px;
+}
+
+.content > header > h2 {
+    font-size: xx-large;
+}
+
+.content > p {
+    font-size: x-large;
+}
+
+.image {
+    border: 1px solid #e7e1e1;
+    border-radius: 50%;
+    height: 300px;
+    padding: 5px;
+    width: 300px;
+}

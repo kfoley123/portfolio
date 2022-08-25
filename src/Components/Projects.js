@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Projects() {
     return (
-        <section>
+        <section id="projects">
             <header className="major"></header>
             <ul className="features">
                 <li>

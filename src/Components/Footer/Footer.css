@@ -1,0 +1,55 @@
+footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color: white;
+    font-size: large;
+    width: 500px;
+    font-family: "Anek Latin", sans-serif;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.icons > li > a {
+    text-decoration: none;
+}
+
+.icon > i {
+    font-size: 40px;
+    color: white;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.icon > i:hover {
+    border: 3px solid white;
+}
+
+.linksIcon {
+    border: 1px solid white;
+    border-radius: 100%;
+    height: 60px;
+    margin: 10px;
+}
+.linksIcon:hover {
+    border: 3px solid white;
+}
+
+.linksText > span {
+    font-size: larger;
+    font-weight: 300;
+}
+
+.linksText > p {
+    font-size: small;
+    margin-top: 30px;
+}

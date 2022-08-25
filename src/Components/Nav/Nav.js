@@ -1,10 +1,16 @@
 import React from "react";
+import "./Nav.css";
+import cs from "classnames";
 
 export default function Nav() {
     return (
         <>
-            <nav>
-                <ul>
+            <nav className="nav">
+                <ul
+                    className={cs("navList", {
+                        clicked: "selected",
+                    })}
+                >
                     <li>
                         <a href="#intro" className="">
                             Introduction
