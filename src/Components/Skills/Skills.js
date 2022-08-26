@@ -26,14 +26,6 @@ export default function Skills() {
                     <i class="devicon-react-original"></i>
                     <strong>React</strong>
                 </li>
-                <li className="styleE">
-                    <i class="devicon-python-plain"></i>
-                    <strong>Python</strong>
-                </li>
-                <li className="styleF">
-                    <i class="devicon-django-plain"></i>
-                    <strong>Django</strong>
-                </li>
             </ul>
             <p className="skillsContent">
                 I started learning how to program by making a text-based
@@ -43,7 +35,10 @@ export default function Skills() {
                 my knowledge of HTML, CSS and Javascript with online challenges
                 such as JS30, FreeCodeCamp and Scrimba. I also continued making
                 more projects from scratch. I've completed almost 40 projects so
-                far!
+                far! I use GitHub to back up my projects and have experience
+                making branches for completing different tasks. I have a mentor
+                go through my code after making pull requests so I can make
+                corrections as needed before merging branches to my master file.
                 <br></br>
                 More recently I've been building apps with React, focusing on
                 those that manipulate data from APIs. My most recent project is
@@ -54,6 +49,27 @@ export default function Skills() {
                 to continue learning and developing my skills to become the best
                 programmer I can!
             </p>
+
+            <ul className="skills">
+                <li className="styleE">
+                    <i class="devicon-python-plain"></i>
+                    <strong>Python</strong>
+                </li>
+                <li className="styleF">
+                    <i class="devicon-django-plain"></i>
+                    <strong>Django</strong>
+                </li>
+                <li className="styleG">
+                    <i class="devicon-sqlite-plain"></i>
+
+                    <strong>SQLite</strong>
+                </li>
+                <li className="styleH">
+                    <i class="devicon-git-plain"></i>
+
+                    <strong>Git</strong>
+                </li>
+            </ul>
         </section>
     );
 }

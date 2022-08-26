@@ -81,7 +81,9 @@ export default function Projects() {
                 </li>
                 <li className="project">
                     <img src={Calculator} alt="" className="icon" />
-                    <h3>Tip Calulator</h3>
+                    <a href="https://chimerical-bunny-9a118c.netlify.app/">
+                        <h3>Tip Calulator</h3>
+                    </a>
                     <p>
                         Calculator that lets you know how much each person owes
                         after selecting a tip percentage and the number of

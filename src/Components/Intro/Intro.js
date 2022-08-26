@@ -1,6 +1,6 @@
 import React from "react";
 import "./Intro.css";
-import cat from "../../Images/Cat.jpeg";
+import profilePic from "../../Images/profilePic.jpeg";
 
 export default function Intro() {
     return (
@@ -21,7 +21,7 @@ export default function Intro() {
                 <span>
                     <img
                         className="image"
-                        src={cat}
+                        src={profilePic}
                         alt="headshot of Kortney Foley"
                     ></img>
                 </span>
