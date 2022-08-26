@@ -2,11 +2,11 @@ import React from "react";
 import "./Footer.css";
 import emailIcon from "../../Images/emailIcon.png";
 
-export default function Footer() {
+export default function Footer(props) {
     let year = new Date().getFullYear();
     return (
         <footer>
-            <section id="contact">
+            <section id="contact" ref={props.contactsRef}>
                 <ul className="icons">
                     <li>
                         <a

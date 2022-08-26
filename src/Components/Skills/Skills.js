@@ -1,9 +1,9 @@
 import React from "react";
 import "./Skills.css";
 
-export default function Skills() {
+export default function Skills(props) {
     return (
-        <section id="skills" className="skillsSection">
+        <section id="skills" className="skillsSection" ref={props.skillsRef}>
             <header className="skillsHeader">
                 <h1>Skills</h1>
                 <p></p>
@@ -11,19 +11,19 @@ export default function Skills() {
             </header>
             <ul className="skills">
                 <li className="styleA">
-                    <i class="devicon-html5-plain"></i>
+                    <i className="devicon-html5-plain"></i>
                     <strong>HTML</strong>
                 </li>
                 <li className="styleB">
-                    <i class="devicon-css3-plain"></i>
+                    <i className="devicon-css3-plain"></i>
                     <strong>CSS</strong>
                 </li>
                 <li className="styleC">
-                    <i class="devicon-javascript-plain"></i>
+                    <i className="devicon-javascript-plain"></i>
                     <strong>Javascript</strong>
                 </li>
                 <li className="styleD">
-                    <i class="devicon-react-original"></i>
+                    <i className="devicon-react-original"></i>
                     <strong>React</strong>
                 </li>
             </ul>
@@ -52,20 +52,20 @@ export default function Skills() {
 
             <ul className="skills">
                 <li className="styleE">
-                    <i class="devicon-python-plain"></i>
+                    <i className="devicon-python-plain"></i>
                     <strong>Python</strong>
                 </li>
                 <li className="styleF">
-                    <i class="devicon-django-plain"></i>
+                    <i className="devicon-django-plain"></i>
                     <strong>Django</strong>
                 </li>
                 <li className="styleG">
-                    <i class="devicon-sqlite-plain"></i>
+                    <i className="devicon-sqlite-plain"></i>
 
                     <strong>SQLite</strong>
                 </li>
                 <li className="styleH">
-                    <i class="devicon-git-plain"></i>
+                    <i className="devicon-git-plain"></i>
 
                     <strong>Git</strong>
                 </li>

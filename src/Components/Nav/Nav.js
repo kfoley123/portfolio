@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Nav.css";
 import cs from "classnames";
 
-export default function Nav() {
-    const [selected, setSelected] = useState("");
+export default function Nav(props) {
+    const { selected, setSelected } = props;
 
     return (
         <>
