@@ -80,7 +80,10 @@ export default function Projects() {
                     </p>
                 </li>
                 <li className="project">
-                    <img src={Calculator} alt="" className="icon" />
+                    <a href="https://chimerical-bunny-9a118c.netlify.app/">
+                        <img src={Calculator} alt="" className="icon" />
+                    </a>
+
                     <a href="https://chimerical-bunny-9a118c.netlify.app/">
                         <h3>Tip Calulator</h3>
                     </a>
@@ -115,8 +118,13 @@ export default function Projects() {
                     </p>
                 </li>
                 <li className="project">
-                    <img src={Plane} alt="" className="icon" />
-                    <h3>Travel Blog</h3>
+                    <a href="https://bejewelled-malabi-8a9fc4.netlify.app/">
+                        <img src={Plane} alt="" className="icon" />
+                    </a>
+
+                    <a href="https://bejewelled-malabi-8a9fc4.netlify.app/">
+                        <h3>Travel Blog</h3>
+                    </a>
                     <p>
                         Shows travel blog entries for some of my favourite
                         vacation destinations. Allows the user to upload a new

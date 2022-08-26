@@ -31,6 +31,6 @@
     text-decoration: none;
 }
 
-.selected {
-    background-color: white;
+.clicked {
+    background-color: #e7e3e3;
 }

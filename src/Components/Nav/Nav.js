@@ -1,33 +1,53 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Nav.css";
 import cs from "classnames";
 
 export default function Nav() {
+    const [selected, setSelected] = useState("");
+
     return (
         <>
             <nav className="nav">
-                <ul
-                    className={cs("navList", {
-                        clicked: "selected",
-                    })}
-                >
-                    <li>
-                        <a href="#intro" className="">
+                <ul className="navList">
+                    <li
+                        className={cs({
+                            clicked: selected === "intro",
+                        })}
+                    >
+                        <a onClick={() => setSelected("intro")} href="#intro">
                             Introduction
                         </a>
                     </li>
-                    <li>
-                        <a href="#projects" className="">
+                    <li
+                        className={cs({
+                            clicked: selected === "projects",
+                        })}
+                    >
+                        <a
+                            onClick={() => setSelected("projects")}
+                            href="#projects"
+                        >
                             Projects
                         </a>
                     </li>
-                    <li>
-                        <a href="#skills" className="">
+                    <li
+                        className={cs({
+                            clicked: selected === "skills",
+                        })}
+                    >
+                        <a onClick={() => setSelected("skills")} href="#skills">
                             Skills
                         </a>
                     </li>
-                    <li>
-                        <a href="#contact" className="">
+                    <li
+                        className={cs({
+                            clicked: selected === "contact",
+                        })}
+                    >
+                        <a
+                            onClick={() => setSelected("contact")}
+                            href="#contact"
+                        >
                             Contact
                         </a>
                     </li>
