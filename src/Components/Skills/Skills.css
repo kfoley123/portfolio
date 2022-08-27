@@ -1,28 +1,25 @@
 .skillsSection {
     border-top: solid 1px #e2e0e0;
-    height: 1000px;
+    height: 1250px;
 }
 
 .skillsHeader {
-    color: #636363;
-    font-family: "Anek Latin", sans-serif;
     text-align: center;
-    font-size: x-large;
 }
 
 .skills {
     display: flex;
     justify-content: center;
-    padding-top: 60px;
     margin-right: 40px;
+    padding-top: 60px;
 }
 
 .skills > li {
-    list-style: none;
-    width: 200px;
-    height: 200px;
     display: flex;
     flex-direction: column;
+    height: 200px;
+    list-style: none;
+    width: 200px;
 }
 
 .styleA {
@@ -56,35 +53,33 @@
 }
 
 .skillsContent {
-    padding-top: 30px;
-    width: 1000px;
-    column-width: 150px;
     margin: auto;
+    padding-top: 30px;
     text-align: justify;
-    column-count: 2;
-    color: #636363;
-    font-family: "Anek Latin", sans-serif;
-    font-size: larger;
-    font-weight: 300;
+    width: 800px;
+}
+
+.skillsContent > p {
+    font-size: 22px;
 }
 
 .skills > li > strong {
     color: white;
-    text-align: center;
     font-family: "Anek Latin", sans-serif;
+    text-align: center;
 }
 
 i {
-    font-size: 100px;
-    padding-bottom: 5px;
-    margin: 50px 50px 0 50px;
     color: white;
+    font-size: 100px;
+    margin: 50px 50px 0 50px;
+    padding-bottom: 5px;
 }
 
 .horizontalRuleB {
     background: linear-gradient(to right, #8de4d0, #8dcde4, #a58de4, #e48d8d);
-    height: 3px;
-    width: 200px;
     border: none;
+    height: 3px;
     margin: auto;
+    width: 200px;
 }

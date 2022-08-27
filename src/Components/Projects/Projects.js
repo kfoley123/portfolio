@@ -10,7 +10,7 @@ import PKMNCard from "../../Images/pokemoncard.png";
 export default function Projects() {
     return (
         <section id="projects" className="projectsSection">
-            <h1 className="projectsTitle">Projects</h1>
+            <h2 className="projectsTitle">Projects</h2>
             <hr className="horizontalRule"></hr>
             <ul className="projectsContainer">
                 <li className="project">
@@ -134,6 +134,11 @@ export default function Projects() {
                     </p>
                 </li>
             </ul>
+            <div className="buttonContainer">
+                <a href="https://github.com/kfoley123">
+                    <button>See More</button>
+                </a>
+            </div>
         </section>
     );
 }

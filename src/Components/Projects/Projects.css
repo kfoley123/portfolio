@@ -1,18 +1,13 @@
 .projectsSection {
     border-top: solid 1px #e2e0e0;
-    height: 1500px;
+    height: 1700px;
 }
 
 .projectsTitle {
     text-align: center;
-    color: #636363;
-    font-family: "Anek Latin", sans-serif;
-    font-size: xx-large;
 }
 
 .projectsContainer {
-    color: #636363;
-    font-family: "Anek Latin", sans-serif;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -45,4 +40,22 @@
 
 .icon:hover {
     border: 5px solid #8968ac;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: white;
+    border: 1px solid #636363;
+    border-radius: 5px;
+    color: #636363;
+    width: 275px;
+    padding: 10px;
+    font-size: x-large;
+}
+
+button:hover {
+    background-color: #e7e3e3;
 }

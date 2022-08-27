@@ -44,8 +44,7 @@ export default function Footer() {
                 <span>
                     Wow! You made it to the bottom! Thanks so much for taking
                     the time to peruse my portfolio site. If you have any
-                    questions or follow-up feel free to reach out to me via any
-                    of the channels linked above.
+                    questions or follow-up feel free to reach out.
                 </span>
                 <p>Copyright ⓒ {year} Kortney Foley</p>
             </section>

@@ -1,12 +1,12 @@
 footer {
-    text-align: center;
+    color: white;
     display: flex;
+    font-family: "Anek Latin", sans-serif;
+    font-size: large;
     flex-direction: column;
     margin: auto;
-    color: white;
-    font-size: large;
+    text-align: center;
     width: 500px;
-    font-family: "Anek Latin", sans-serif;
 }
 
 .icons {
@@ -52,4 +52,5 @@ footer {
 .linksText > p {
     font-size: small;
     margin-top: 30px;
+    padding-bottom: 100px;
 }
