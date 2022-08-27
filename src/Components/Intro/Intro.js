@@ -2,9 +2,9 @@ import React from "react";
 import "./Intro.css";
 import profilePic from "../../Images/profilePic.jpeg";
 
-export default function Intro(props) {
+export default function Intro() {
     return (
-        <section id="intro" className="mainSection" ref={props.introRef}>
+        <section id="intro" className="mainSection">
             <div className="spotlight">
                 <div className="content">
                     <header>

@@ -7,13 +7,9 @@ import Calculator from "../../Images/Calculator.png";
 import Plane from "../../Images/plane.webp";
 import PKMNCard from "../../Images/pokemoncard.png";
 
-export default function Projects(props) {
+export default function Projects() {
     return (
-        <section
-            id="projects"
-            className="projectsSection"
-            ref={props.projectsRef}
-        >
+        <section id="projects" className="projectsSection">
             <h1 className="projectsTitle">Projects</h1>
             <hr className="horizontalRule"></hr>
             <ul className="projectsContainer">

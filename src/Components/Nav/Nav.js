@@ -1,58 +1,28 @@
 import React from "react";
 import "./Nav.css";
-import cs from "classnames";
+import Scrollspy from "react-scrollspy";
 
-export default function Nav(props) {
-    const { selected, setSelected } = props;
-
+export default function Nav() {
     return (
-        <>
-            <nav className="nav">
-                <ul className="navList">
-                    <li
-                        className={cs({
-                            clicked: selected === "intro",
-                        })}
-                    >
-                        <a onClick={() => setSelected("intro")} href="#intro">
-                            Introduction
-                        </a>
-                    </li>
-                    <li
-                        className={cs({
-                            clicked: selected === "projects",
-                        })}
-                    >
-                        <a
-                            onClick={() => setSelected("projects")}
-                            href="#projects"
-                        >
-                            Projects
-                        </a>
-                    </li>
-                    <li
-                        className={cs({
-                            clicked: selected === "skills",
-                        })}
-                    >
-                        <a onClick={() => setSelected("skills")} href="#skills">
-                            Skills
-                        </a>
-                    </li>
-                    <li
-                        className={cs({
-                            clicked: selected === "contact",
-                        })}
-                    >
-                        <a
-                            onClick={() => setSelected("contact")}
-                            href="#contact"
-                        >
-                            Contact
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </>
+        <nav className="nav">
+            <Scrollspy
+                className="navList"
+                items={["intro", "projects", "skills", "contact"]}
+                currentClassName="clicked"
+            >
+                <li>
+                    <a href="#intro">Introduction</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </Scrollspy>
+        </nav>
     );
 }

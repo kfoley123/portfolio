@@ -1,9 +1,9 @@
 import React from "react";
 import "./Skills.css";
 
-export default function Skills(props) {
+export default function Skills() {
     return (
-        <section id="skills" className="skillsSection" ref={props.skillsRef}>
+        <section id="skills" className="skillsSection">
             <header className="skillsHeader">
                 <h1>Skills</h1>
                 <p></p>
