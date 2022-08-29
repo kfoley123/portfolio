@@ -6,12 +6,12 @@ export default function Footer() {
     let year = new Date().getFullYear();
     return (
         <footer>
-            <section id="links">
+            <section id="contact">
                 <ul className="icons">
                     <li>
                         <a
                             href="https://github.com/kfoley123"
-                            className="icon fa-github alt"
+                            className="socialIcon fa-github alt"
                         >
                             <i className="devicon-github-original"></i>
                         </a>
@@ -19,7 +19,7 @@ export default function Footer() {
                     <li>
                         <a
                             href="https://www.linkedin.com/in/kortney-foley/"
-                            className="icon"
+                            className="socialIcon"
                         >
                             <i className="devicon-linkedin-plain"></i>
                         </a>
@@ -27,7 +27,7 @@ export default function Footer() {
                     <li>
                         <a
                             href="mailto:kortney_foley@hotmail.com"
-                            className="icon"
+                            className="socialIcon"
                         >
                             <img
                                 className="linksIcon"
@@ -44,8 +44,7 @@ export default function Footer() {
                 <span>
                     Wow! You made it to the bottom! Thanks so much for taking
                     the time to peruse my portfolio site. If you have any
-                    questions or follow-up feel free to reach out to me via any
-                    of the channels linked above.
+                    questions or follow-up feel free to reach out.
                 </span>
                 <p>Copyright ⓒ {year} Kortney Foley</p>
             </section>

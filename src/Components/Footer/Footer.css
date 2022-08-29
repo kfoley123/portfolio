@@ -1,12 +1,12 @@
 footer {
-    text-align: center;
+    color: white;
     display: flex;
+
+    font-size: large;
     flex-direction: column;
     margin: auto;
-    color: white;
-    font-size: large;
+    text-align: center;
     width: 500px;
-    font-family: "Anek Latin", sans-serif;
 }
 
 .icons {
@@ -21,7 +21,7 @@ footer {
     text-decoration: none;
 }
 
-.icon > i {
+.socialIcon > i {
     font-size: 40px;
     color: white;
     margin: 10px;
@@ -30,7 +30,7 @@ footer {
     padding: 10px;
 }
 
-.icon > i:hover {
+.socialIcon > i:hover {
     border: 3px solid white;
 }
 
@@ -52,4 +52,5 @@ footer {
 .linksText > p {
     font-size: small;
     margin-top: 30px;
+    padding-bottom: 100px;
 }

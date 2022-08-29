@@ -1,6 +1,6 @@
 import React from "react";
 import "./Intro.css";
-import cat from "../../Images/Cat.jpeg";
+import profilePic from "../../Images/profilePic.jpeg";
 
 export default function Intro() {
     return (
@@ -12,7 +12,7 @@ export default function Intro() {
                         <hr className="hRule" />
                     </header>
                     <p>
-                        Thanks for stopping by my portfoloio site! I'm a full
+                        Thanks for stopping by my portfolio site! I'm a full
                         stack developer located in Halifax, NS. Below you can
                         take a look at projects I've worked on and skills I've
                         developed while bringing those projects to life.
@@ -21,7 +21,7 @@ export default function Intro() {
                 <span>
                     <img
                         className="image"
-                        src={cat}
+                        src={profilePic}
                         alt="headshot of Kortney Foley"
                     ></img>
                 </span>

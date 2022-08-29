@@ -1,0 +1,85 @@
+.skillsSection {
+    border-top: solid 1px #e2e0e0;
+    height: 1350px;
+}
+
+.skillsHeader {
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+    padding-top: 60px;
+}
+
+.skills > li {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    list-style: none;
+    width: 200px;
+}
+
+.skillsBoxStyleA {
+    background-color: #8de4d0;
+}
+
+.skillsBoxStyleB {
+    background-color: #8dcde4;
+}
+
+.skillsBoxStyleC {
+    background-color: #8da1e4;
+}
+.skillsBoxStyleD {
+    background-color: #a58de4;
+}
+.skillsBoxStyleE {
+    background-color: #e48dcd;
+}
+
+.skillsBoxStyleF {
+    background-color: #f29f5f;
+}
+
+.skillsBoxStyleG {
+    background-color: #edc170;
+}
+
+.skillsBoxStyleH {
+    background-color: #ed5d5d;
+}
+
+.skillsContent {
+    margin: auto;
+    padding-top: 30px;
+    text-align: justify;
+    width: 800px;
+}
+
+.skillsContent > p {
+    font-size: 22px;
+}
+
+.skills > li > strong {
+    color: white;
+    font-family: "Anek Latin", sans-serif;
+    text-align: center;
+}
+
+i {
+    color: white;
+    font-size: 100px;
+    margin: 50px 50px 0 50px;
+    padding-bottom: 5px;
+}
+
+.horizontalRuleB {
+    background: linear-gradient(to right, #8de4d0, #8dcde4, #a58de4, #e48d8d);
+    border: none;
+    height: 3px;
+    margin: auto;
+    width: 200px;
+}
