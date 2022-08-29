@@ -42,8 +42,8 @@ export default function Skills() {
                     I have been using Git for version control since day one, and
                     have experience making branches for different tasks, which I
                     push to my GitHub. I have a mentor go through my code after
-                    making pull requests so I can make corrections as needed
-                    before merging branches to my master branch.
+                    making pull requests so I can make corrections as needed to
+                    each branch before merging them to my master branch.
                 </p>
 
                 <p>

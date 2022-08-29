@@ -1,7 +1,6 @@
 footer {
     color: white;
     display: flex;
-
     font-size: large;
     flex-direction: column;
     margin: auto;
