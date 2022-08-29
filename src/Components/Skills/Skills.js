@@ -10,19 +10,19 @@ export default function Skills() {
                 <hr className="horizontalRuleB"></hr>
             </header>
             <ul className="skills">
-                <li className="styleA">
+                <li className="skillsBoxStyleA">
                     <i className="devicon-html5-plain"></i>
                     <strong>HTML</strong>
                 </li>
-                <li className="styleB">
+                <li className="skillsBoxStyleB">
                     <i className="devicon-css3-plain"></i>
                     <strong>CSS</strong>
                 </li>
-                <li className="styleC">
+                <li className="skillsBoxStyleC">
                     <i className="devicon-javascript-plain"></i>
                     <strong>Javascript</strong>
                 </li>
-                <li className="styleD">
+                <li className="skillsBoxStyleD">
                     <i className="devicon-react-original"></i>
                     <strong>React</strong>
                 </li>
@@ -31,19 +31,29 @@ export default function Skills() {
                 <p>
                     I started learning how to program by making a text-based
                     choose-your-own-adventure game in Python. Its a far cry from
-                    Game of the Year, but but made me realize I wanted to become
+                    Game of the Year, but it made me realize I wanted to become
                     a programmer. Following that, I more seriously started
-                    delevoping my knowledge of HTML, CSS and Javascript with
+                    delveoping my knowledge of HTML, CSS and Javascript with
                     online challenges such as JS30, FreeCodeCamp and Scrimba. I
                     also continued making more projects from scratch. I've
                     completed almost 40 projects so far!
                 </p>
                 <p>
-                    I use GitHub to back up my projects and have experience
-                    making branches for completing different tasks. I have a
-                    mentor go through my code after making pull requests so I
-                    can make corrections as needed before merging branches to my
-                    master file.
+                    I have been using Git for version control since day one, and
+                    have experience making branches for different tasks, which I
+                    push to my GitHub. I have a mentor go through my code after
+                    making pull requests so I can make corrections as needed
+                    before merging branches to my master branch.
+                </p>
+
+                <p>
+                    To make my learning experience as much like a real workplace
+                    as possible, I planned everything out using Agile
+                    methodology. I organized tasks into two week sprints
+                    monitored with a Trello board. Tasks were assigned points
+                    based on complexity. At the end of each sprint I met with my
+                    mentor to discuss things that went well and areas that
+                    needed attention.
                 </p>
 
                 <p>
@@ -59,20 +69,20 @@ export default function Skills() {
             </div>
 
             <ul className="skills">
-                <li className="styleE">
+                <li className="skillsBoxStyleE">
                     <i className="devicon-python-plain"></i>
                     <strong>Python</strong>
                 </li>
-                <li className="styleF">
+                <li className="skillsBoxStyleF">
                     <i className="devicon-django-plain"></i>
                     <strong>Django</strong>
                 </li>
-                <li className="styleG">
+                <li className="skillsBoxStyleG">
                     <i className="devicon-sqlite-plain"></i>
 
                     <strong>SQLite</strong>
                 </li>
-                <li className="styleH">
+                <li className="skillsBoxStyleH">
                     <i className="devicon-git-plain"></i>
 
                     <strong>Git</strong>

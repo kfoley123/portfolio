@@ -1,6 +1,6 @@
 .skillsSection {
     border-top: solid 1px #e2e0e0;
-    height: 1250px;
+    height: 1350px;
 }
 
 .skillsHeader {
@@ -22,33 +22,33 @@
     width: 200px;
 }
 
-.styleA {
+.skillsBoxStyleA {
     background-color: #8de4d0;
 }
 
-.styleB {
+.skillsBoxStyleB {
     background-color: #8dcde4;
 }
 
-.styleC {
+.skillsBoxStyleC {
     background-color: #8da1e4;
 }
-.styleD {
+.skillsBoxStyleD {
     background-color: #a58de4;
 }
-.styleE {
+.skillsBoxStyleE {
     background-color: #e48dcd;
 }
 
-.styleF {
+.skillsBoxStyleF {
     background-color: #f29f5f;
 }
 
-.styleG {
+.skillsBoxStyleG {
     background-color: #edc170;
 }
 
-.styleH {
+.skillsBoxStyleH {
     background-color: #ed5d5d;
 }
 

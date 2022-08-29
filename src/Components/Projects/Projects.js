@@ -14,36 +14,36 @@ export default function Projects() {
             <hr className="horizontalRule"></hr>
             <ul className="projectsContainer">
                 <li className="project">
-                    <a
-                        href="https://chipper-otter-f36709.netlify.app/"
-                        className=""
-                    >
-                        <img src={PKMNCard} alt="" className="icon" />
+                    <a href="https://chipper-otter-f36709.netlify.app/">
+                        <img
+                            src={PKMNCard}
+                            alt="line art of two pokemon cards "
+                            className="icon"
+                        />
                     </a>
                     <a href="https://chipper-otter-f36709.netlify.app/">
                         <h3>Pokemon Card Database</h3>
                     </a>
 
                     <p>
-                        Uses a Django REST API to store pokemon cards. Users can
-                        log in to view all cards, filter for specific types and
-                        save their own collections.
+                        Uses a SQLite database to store pokemon cards and a
+                        Django REST API to access/modify them. Users can log in
+                        to view all cards, filter for specific types and save
+                        their own collections.
                         <br></br>
-                        Made with React and Django.
+                        Made with React, SQlite and Django.
                     </p>
                 </li>
                 <li className="project">
-                    <a
-                        href="https://chipper-otter-f36709.netlify.app/"
-                        className=""
-                    >
-                        <img src={AnimeApp} alt="" className="icon" />
+                    <a href="https://chipper-otter-f36709.netlify.app/">
+                        <img
+                            src={AnimeApp}
+                            alt="line art of heart"
+                            className="icon"
+                        />
                     </a>
 
-                    <a
-                        href="https://chipper-otter-f36709.netlify.app/"
-                        className=""
-                    >
+                    <a href="https://chipper-otter-f36709.netlify.app/">
                         <h3>Anime Finder App</h3>
                     </a>
 
@@ -57,16 +57,14 @@ export default function Projects() {
                     </p>
                 </li>
                 <li className="project">
-                    <a
-                        href="https://dashing-lokum-972c9b.netlify.app/"
-                        className=""
-                    >
-                        <img src={PokeBattle} alt="" className="icon" />
+                    <a href="https://dashing-lokum-972c9b.netlify.app/">
+                        <img
+                            src={PokeBattle}
+                            alt="line art of pokeball"
+                            className="icon"
+                        />
                     </a>
-                    <a
-                        href="https://dashing-lokum-972c9b.netlify.app/"
-                        className=""
-                    >
+                    <a href="https://dashing-lokum-972c9b.netlify.app/">
                         <h3>Pokemon Battle</h3>
                     </a>
 
@@ -81,7 +79,11 @@ export default function Projects() {
                 </li>
                 <li className="project">
                     <a href="https://chimerical-bunny-9a118c.netlify.app/">
-                        <img src={Calculator} alt="" className="icon" />
+                        <img
+                            src={Calculator}
+                            alt="line art of calculator"
+                            className="icon"
+                        />
                     </a>
 
                     <a href="https://chimerical-bunny-9a118c.netlify.app/">
@@ -96,16 +98,14 @@ export default function Projects() {
                     </p>
                 </li>
                 <li className="project">
-                    <a
-                        href="https://effortless-peony-f87dfb.netlify.app/"
-                        className=""
-                    >
-                        <img src={WhatToEat} alt="" className="icon" />
+                    <a href="https://effortless-peony-f87dfb.netlify.app/">
+                        <img
+                            src={WhatToEat}
+                            alt="line art of fork and knife"
+                            className="icon"
+                        />
                     </a>
-                    <a
-                        href="https://effortless-peony-f87dfb.netlify.app/"
-                        className=""
-                    >
+                    <a href="https://effortless-peony-f87dfb.netlify.app/">
                         <h3>What to Eat Tonight</h3>
                     </a>
 
@@ -119,7 +119,11 @@ export default function Projects() {
                 </li>
                 <li className="project">
                     <a href="https://bejewelled-malabi-8a9fc4.netlify.app/">
-                        <img src={Plane} alt="" className="icon" />
+                        <img
+                            src={Plane}
+                            alt="airplane silhouette"
+                            className="icon"
+                        />
                     </a>
 
                     <a href="https://bejewelled-malabi-8a9fc4.netlify.app/">
