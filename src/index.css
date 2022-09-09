@@ -1,6 +1,6 @@
 body {
     background-image: linear-gradient(#8968ac, #f99ef4);
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
     font-family: "Anek Latin", sans-serif;
     color: #636363;

@@ -1,5 +1,5 @@
 .mainSection {
-    height: 400px;
+    min-height: 400px;
     padding: 93px 120px 56px 120px;
 }
 

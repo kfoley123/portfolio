@@ -1,6 +1,6 @@
 .projectsSection {
     border-top: solid 1px #e2e0e0;
-    height: 1700px;
+    min-height: 1700px;
 }
 
 .projectsTitle {
