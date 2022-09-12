@@ -22,7 +22,7 @@
 }
 
 .content > p {
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .image {
@@ -31,4 +31,11 @@
     height: 300px;
     width: 300px;
     object-fit: cover;
+}
+
+@media (max-width: 480px) {
+    .content > p {
+        font-size: 40px;
+        font-weight: 400;
+    }
 }
