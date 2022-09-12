@@ -20,7 +20,7 @@ body {
 }
 
 p {
-    font-size: large;
+    font-size: larger;
     font-weight: 400;
 }
 
@@ -29,13 +29,18 @@ h1 {
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 40px;
 }
 
-@media (max-width: 480px) {
+h3 {
+    font-size: 40px;
+}
+
+/* @media (max-width: 480px) {
     p {
         font-size: 30px;
         font-weight: 400;
+        background-color: aqua;
     }
 
     h1 {
@@ -43,6 +48,6 @@ h2 {
     }
 
     h2 {
-        font-size: 50pxpx;
+        font-size: 50px;
     }
-}
+} */
