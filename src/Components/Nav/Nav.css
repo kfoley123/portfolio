@@ -1,17 +1,19 @@
 .nav {
     background-color: #f7f7f7;
-    position: sticky;
-    top: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    position: sticky;
+    top: 0;
+}
+
+@media only screen and (max-device-width: 480px) {
 }
 
 .navList {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    padding: 10px 40px;
-    width: 500px;
+    padding: 10px 150px;
 }
 
 .navList > li {
@@ -27,10 +29,31 @@
 .navList > li > a {
     color: #636363;
     font-family: "Anek Latin", sans-serif;
-    font-size: x-large;
+    font-size: 40px;
     text-decoration: none;
 }
 
 .clicked {
     background-color: #e7e3e3;
+}
+
+@media (max-width: 900px) {
+    .navList {
+        padding: 10px 40px;
+    }
+
+    .navList > li > a {
+        text-size-adjust: auto;
+    }
+}
+
+@media (max-width: 650px) {
+    .navList {
+        padding: 10px 30px;
+    }
+
+    .navList > li > a {
+        text-size-adjust: auto;
+        font-size: 30px;
+    }
 }
