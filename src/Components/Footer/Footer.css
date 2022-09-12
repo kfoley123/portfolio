@@ -5,7 +5,7 @@ footer {
     flex-direction: column;
     margin: auto;
     text-align: center;
-    width: 500px;
+    max-width: 500px;
 }
 
 .icons {
