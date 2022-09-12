@@ -6,6 +6,7 @@ export default function Nav() {
     return (
         <nav className="nav">
             <Scrollspy
+                offset={-100}
                 className="navList"
                 items={["intro", "projects", "skills", "contact"]}
                 currentClassName="clicked"
