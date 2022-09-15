@@ -22,7 +22,7 @@ Kortney Foley
 
 ## Description
 
-I designed this app to be a showcase of my projects and skills as a Full-Stack developer. Icons in the projects section link to a selection of other applications I've created. The page also covers skills I've developed and has a contact form at the bottom.
+I designed this app to be a showcase of my projects and skills as a Full-Stack developer. Icons in the projects section link to a selection of other applications I've created. The page also covers skills I've developed and has contact info at the bottom.
 
 ---
 
