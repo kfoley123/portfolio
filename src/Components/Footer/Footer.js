@@ -10,6 +10,7 @@ export default function Footer() {
                 <ul className="icons">
                     <li>
                         <a
+                            aria-label="GitHub link"
                             href="https://github.com/kfoley123"
                             className="socialIcon fa-github alt"
                         >

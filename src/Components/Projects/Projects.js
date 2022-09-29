@@ -139,9 +139,9 @@ export default function Projects() {
                 </li>
             </ul>
             <div className="buttonContainer">
-                <a href="https://github.com/kfoley123">
+                <form action="https://github.com/kfoley123" method="get">
                     <button>See More</button>
-                </a>
+                </form>
             </div>
         </section>
     );
