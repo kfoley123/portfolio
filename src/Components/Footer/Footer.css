@@ -40,6 +40,7 @@ footer {
     margin: 15px;
     position: relative;
     top: 1px;
+    width: 100px;
 }
 .linksIcon:hover {
     border: 3px solid white;
