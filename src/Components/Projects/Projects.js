@@ -4,7 +4,7 @@ import PokeBattle from "../../Images/pokemonBattle.png";
 import AnimeApp from "../../Images/AnimeApp.png";
 import WhatToEat from "../../Images/WhatToEat.png";
 import Calculator from "../../Images/Calculator.png";
-import Plane from "../../Images/plane.webp";
+import Plane from "../../Images/plane.png";
 import PKMNCard from "../../Images/pokemoncard.png";
 
 export default function Projects() {
@@ -14,14 +14,14 @@ export default function Projects() {
             <hr className="horizontalRule"></hr>
             <ul className="projectsContainer">
                 <li className="project">
-                    <a href="https://github.com/kfoley123/pokemoncard_frontend">
+                    <a href="https://liveversion--gleeful-sprite-fe99aa.netlify.app/">
                         <img
                             src={PKMNCard}
                             alt="line art of two pokemon cards "
                             className="icon"
                         />
                     </a>
-                    <a href="https://github.com/kfoley123/pokemoncard_frontend">
+                    <a href="https://liveversion--gleeful-sprite-fe99aa.netlify.app/">
                         <h3>Pokemon Card Database</h3>
                     </a>
 
@@ -139,9 +139,9 @@ export default function Projects() {
                 </li>
             </ul>
             <div className="buttonContainer">
-                <a href="https://github.com/kfoley123">
+                <form action="https://github.com/kfoley123" method="get">
                     <button>See More</button>
-                </a>
+                </form>
             </div>
         </section>
     );

@@ -1,6 +1,6 @@
 .projectsSection {
     border-top: solid 1px #e2e0e0;
-    height: 1700px;
+    min-height: 1700px;
 }
 
 .projectsTitle {
@@ -51,9 +51,10 @@ button {
     border: 1px solid #636363;
     border-radius: 5px;
     color: #636363;
-    width: 275px;
-    padding: 10px;
     font-size: x-large;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 275px;
 }
 
 button:hover {

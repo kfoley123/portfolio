@@ -11,7 +11,7 @@ export default function Intro() {
                         <h2> Hi, I'm Kortney </h2>
                         <hr className="hRule" />
                     </header>
-                    <p>
+                    <p className="introContent">
                         Thanks for stopping by my portfolio site! I'm a full
                         stack developer located in Halifax, NS. Below you can
                         take a look at projects I've worked on and skills I've

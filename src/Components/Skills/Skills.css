@@ -1,6 +1,10 @@
 .skillsSection {
     border-top: solid 1px #e2e0e0;
-    height: 1350px;
+    min-height: 1350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 30px;
 }
 
 .skillsHeader {
@@ -10,8 +14,7 @@
 .skills {
     display: flex;
     justify-content: center;
-    margin-right: 40px;
-    padding-top: 60px;
+    padding-right: 40px;
 }
 
 .skills > li {
@@ -53,10 +56,10 @@
 }
 
 .skillsContent {
-    margin: auto;
-    padding-top: 30px;
+    align-self: center;
+    margin: 0 10%;
     text-align: justify;
-    width: 800px;
+    max-width: 800px;
 }
 
 .skillsContent > p {
@@ -76,10 +79,22 @@ i {
     padding-bottom: 5px;
 }
 
+@media (max-width: 720px) {
+    .skills > li {
+        height: 100px;
+        width: 100px;
+    }
+    i {
+        font-size: 50px;
+        margin: 25px 25px 0 25px;
+    }
+}
+
 .horizontalRuleB {
     background: linear-gradient(to right, #8de4d0, #8dcde4, #a58de4, #e48d8d);
     border: none;
     height: 3px;
-    margin: auto;
+    margin-bottom: 30px;
+
     width: 200px;
 }

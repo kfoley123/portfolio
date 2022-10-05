@@ -10,6 +10,7 @@ export default function Footer() {
                 <ul className="icons">
                     <li>
                         <a
+                            aria-label="GitHub"
                             href="https://github.com/kfoley123"
                             className="socialIcon fa-github alt"
                         >
@@ -18,6 +19,7 @@ export default function Footer() {
                     </li>
                     <li>
                         <a
+                            aria-label="LinkedIn"
                             href="https://www.linkedin.com/in/kortney-foley/"
                             className="socialIcon"
                         >
@@ -32,7 +34,9 @@ export default function Footer() {
                             <img
                                 className="linksIcon"
                                 src={emailIcon}
-                                alt="white email logo"
+                                width="100"
+                                height="100"
+                                alt="white email icon"
                             />
                         </a>
                     </li>
