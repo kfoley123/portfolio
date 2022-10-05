@@ -34,6 +34,8 @@ export default function Footer() {
                             <img
                                 className="linksIcon"
                                 src={emailIcon}
+                                width="100"
+                                height="100"
                                 alt="white email icon"
                             />
                         </a>
