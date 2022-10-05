@@ -35,7 +35,7 @@ export default function Projects() {
                     </p>
                 </li>
                 <li className="project">
-                    <a href="https://chipper-otter-f36709.netlify.app/">
+                    <a href="https://anime-finder.kortney.site">
                         <img
                             src={AnimeApp}
                             alt="line art of heart"
@@ -43,7 +43,7 @@ export default function Projects() {
                         />
                     </a>
 
-                    <a href="https://chipper-otter-f36709.netlify.app/">
+                    <a href="https://anime-finder.kortney.site">
                         <h3>Anime Finder App</h3>
                     </a>
 
@@ -57,14 +57,14 @@ export default function Projects() {
                     </p>
                 </li>
                 <li className="project">
-                    <a href="https://dashing-lokum-972c9b.netlify.app/">
+                    <a href="https://pokemon-battle.kortney.site">
                         <img
                             src={PokeBattle}
                             alt="line art of pokeball"
                             className="icon"
                         />
                     </a>
-                    <a href="https://dashing-lokum-972c9b.netlify.app/">
+                    <a href="https://pokemon-battle.kortney.site">
                         <h3>Pokemon Battle</h3>
                     </a>
 
@@ -78,7 +78,7 @@ export default function Projects() {
                     </p>
                 </li>
                 <li className="project">
-                    <a href="https://chimerical-bunny-9a118c.netlify.app/">
+                    <a href="https://tip-calc.kortney.site">
                         <img
                             src={Calculator}
                             alt="line art of calculator"
@@ -86,7 +86,7 @@ export default function Projects() {
                         />
                     </a>
 
-                    <a href="https://chimerical-bunny-9a118c.netlify.app/">
+                    <a href="https://tip-calc.kortney.site">
                         <h3>Tip Calulator</h3>
                     </a>
                     <p>
@@ -98,14 +98,14 @@ export default function Projects() {
                     </p>
                 </li>
                 <li className="project">
-                    <a href="https://effortless-peony-f87dfb.netlify.app/">
+                    <a href="https://what-to-eat.kortney.site">
                         <img
                             src={WhatToEat}
                             alt="line art of fork and knife"
                             className="icon"
                         />
                     </a>
-                    <a href="https://effortless-peony-f87dfb.netlify.app/">
+                    <a href="https://what-to-eat.kortney.site">
                         <h3>What to Eat Tonight</h3>
                     </a>
 
@@ -118,7 +118,7 @@ export default function Projects() {
                     </p>
                 </li>
                 <li className="project">
-                    <a href="https://bejewelled-malabi-8a9fc4.netlify.app/">
+                    <a href="https://travel-journal.kortney.site">
                         <img
                             src={Plane}
                             alt="airplane silhouette"
@@ -126,7 +126,7 @@ export default function Projects() {
                         />
                     </a>
 
-                    <a href="https://bejewelled-malabi-8a9fc4.netlify.app/">
+                    <a href="https://travel-journal.kortney.site">
                         <h3>Travel Blog</h3>
                     </a>
                     <p>
