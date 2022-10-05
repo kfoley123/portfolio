@@ -6,9 +6,6 @@
     top: 0;
 }
 
-@media only screen and (max-device-width: 480px) {
-}
-
 .navList {
     display: flex;
     justify-content: space-between;

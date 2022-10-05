@@ -32,11 +32,3 @@
     width: 300px;
     object-fit: cover;
 }
-
-/* @media screen and (max-width: 400px) {
-    .introContent {
-        font-size: 40px;
-        font-weight: 400;
-        background-color: aqua;
-    }
-} */

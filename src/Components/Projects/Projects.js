@@ -14,14 +14,14 @@ export default function Projects() {
             <hr className="horizontalRule"></hr>
             <ul className="projectsContainer">
                 <li className="project">
-                    <a href="https://chipper-otter-f36709.netlify.app/">
+                    <a href="https://liveversion--gleeful-sprite-fe99aa.netlify.app/">
                         <img
                             src={PKMNCard}
                             alt="line art of two pokemon cards "
                             className="icon"
                         />
                     </a>
-                    <a href="https://chipper-otter-f36709.netlify.app/">
+                    <a href="https://liveversion--gleeful-sprite-fe99aa.netlify.app/">
                         <h3>Pokemon Card Database</h3>
                     </a>
 
