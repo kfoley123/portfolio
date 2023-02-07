@@ -137,7 +137,7 @@ export default function Projects() {
                         full recipe and instructions.
                         <br></br>
                         Made with React. Intergrated XML Podcast feed and used
-                        Netlify form submission.
+                        Netlify form submission features.
                     </p>
                 </li>
             </ul>
