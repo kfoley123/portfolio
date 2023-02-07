@@ -136,7 +136,8 @@ export default function Projects() {
                         question, what to eat tonight? Displays type of food,
                         full recipe and instructions.
                         <br></br>
-                        Made with React.
+                        Made with React. Intergrated XML Podcast feed and used
+                        Netlify form submission.
                     </p>
                 </li>
             </ul>
