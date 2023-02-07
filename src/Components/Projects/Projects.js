@@ -4,7 +4,7 @@ import PokeBattle from "../../Images/pokemonBattle.png";
 import AnimeApp from "../../Images/AnimeApp.png";
 import WhatToEat from "../../Images/WhatToEat.png";
 import Calculator from "../../Images/Calculator.png";
-import Plane from "../../Images/plane.png";
+import podcast from "../../Images/HUGELogo.png";
 import PKMNCard from "../../Images/pokemoncard.png";
 
 export default function Projects() {
@@ -13,6 +13,28 @@ export default function Projects() {
             <h2 className="projectsTitle">Projects</h2>
             <hr className="horizontalRule"></hr>
             <ul className="projectsContainer">
+                <li className="project">
+                    <a href="https://www.hoppedupeast.com/">
+                        <div>
+                            <img
+                                src={podcast}
+                                alt="airplane silhouette"
+                                className="icon"
+                            />
+                        </div>
+                    </a>
+
+                    <a href="https://www.hoppedupeast.com/">
+                        <h3>Hopped Up Gaming: East Website</h3>
+                    </a>
+                    <p>
+                        Website for the Hopped Up Gaming East Podcast. First
+                        client project as freelancer for a local beer and video
+                        game podcast group.
+                        <br></br>
+                        Made with React.
+                    </p>
+                </li>
                 <li className="project">
                     <a href="https://liveversion--gleeful-sprite-fe99aa.netlify.app/">
                         <img
@@ -113,26 +135,6 @@ export default function Projects() {
                         Hits an API to generate a random recipe that answers the
                         question, what to eat tonight? Displays type of food,
                         full recipe and instructions.
-                        <br></br>
-                        Made with React.
-                    </p>
-                </li>
-                <li className="project">
-                    <a href="https://travel-journal.kortney.site">
-                        <img
-                            src={Plane}
-                            alt="airplane silhouette"
-                            className="icon"
-                        />
-                    </a>
-
-                    <a href="https://travel-journal.kortney.site">
-                        <h3>Travel Blog</h3>
-                    </a>
-                    <p>
-                        Shows travel blog entries for some of my favourite
-                        vacation destinations. Allows the user to upload a new
-                        blog post into local storage.
                         <br></br>
                         Made with React.
                     </p>
