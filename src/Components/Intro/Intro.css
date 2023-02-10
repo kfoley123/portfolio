@@ -29,6 +29,7 @@
     border: 1px solid #e7e1e1;
     border-radius: 50%;
     height: 300px;
-    width: 300px;
+    margin-top: 10px;
     object-fit: cover;
+    width: 300px;
 }

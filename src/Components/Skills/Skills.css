@@ -58,7 +58,7 @@
 .skillsContent {
     align-self: center;
     margin: 0 10%;
-    text-align: justify;
+    text-align: left;
     max-width: 800px;
 }
 
