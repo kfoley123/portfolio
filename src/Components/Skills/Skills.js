@@ -57,14 +57,15 @@ export default function Skills() {
                 </p>
 
                 <p>
-                    More recently I've been building apps with React, focusing
-                    on those that manipulate data from APIs. My most recent
-                    project is a Pokemon Card database (linked above), which
-                    utilizes a React frontend with a Django REST API and a
-                    SQLite database. Learning front end as well as back end was
-                    a huge goal for me, so that was a satisfying project to have
-                    under my belt. I'm very eager to continue learning and
-                    developing my skills to become the best programmer I can!
+                    The most recent project I've completed is a website made
+                    with React for a local beer and gaming podcast (linked
+                    above). It was my first experience as a freelancer and also
+                    my first time working with XML data, so it was a great
+                    opportunity to learn. I'm currently working on another
+                    freelance project, this time using React Native to create a
+                    scheduling app for a local business. I'm very eager to
+                    continue learning and developing my skills to become the
+                    best programmer I can!
                 </p>
             </div>
 
