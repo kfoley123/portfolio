@@ -2,7 +2,7 @@ import React from "react";
 import "./Projects.css";
 import PokeBattle from "../../Images/pokemonBattle.png";
 import AnimeApp from "../../Images/AnimeApp.png";
-import WhatToEat from "../../Images/WhatToEat.png";
+import WizardHat from "../../Images/wizardHat.jpg";
 import Calculator from "../../Images/Calculator.png";
 import podcast from "../../Images/HUGELogo.png";
 import PKMNCard from "../../Images/pokemoncard.png";
@@ -14,15 +14,39 @@ export default function Projects() {
             <hr className="horizontalRule"></hr>
             <ul className="projectsContainer">
                 <li className="project">
-                    <a href="https://www.hoppedupeast.com/">
-                        <div>
+                    <div className="iconContainer">
+                        <a href="https://github.com/kfoley123/FirstRunWiz/blob/main/README.md/">
                             <img
-                                src={podcast}
-                                alt="airplane silhouette"
+                                src={WizardHat}
+                                alt="wizardHatLogo"
                                 className="icon"
                             />
-                        </div>
+                        </a>
+                    </div>
+
+                    <a href="https://github.com/kfoley123/FirstRunWiz/blob/main/README.md/">
+                        <h3>First Run Wizard Demo </h3>
                     </a>
+                    <p>
+                        A mobile app showcasing some UI features that I built in
+                        React Native. The user creates a new profile using a
+                        First Run Wizard on the initial load of the app and
+                        keeps the data in local storage. Existing users can log
+                        back in to update their settings.
+                        <br></br>
+                        Made with React Native and TypeScript.
+                    </p>
+                </li>
+                <li className="project">
+                    <div className="iconContainer">
+                        <a href="https://www.hoppedupeast.com/">
+                            <img
+                                src={podcast}
+                                alt="HUGElogo"
+                                className="icon"
+                            />
+                        </a>
+                    </div>
 
                     <a href="https://www.hoppedupeast.com/">
                         <h3>Hopped Up Gaming: East Website</h3>
@@ -36,13 +60,16 @@ export default function Projects() {
                     </p>
                 </li>
                 <li className="project">
-                    <a href="https://liveversion--gleeful-sprite-fe99aa.netlify.app/">
-                        <img
-                            src={PKMNCard}
-                            alt="line art of two pokemon cards "
-                            className="icon"
-                        />
-                    </a>
+                    <div className="iconContainer">
+                        <a href="https://liveversion--gleeful-sprite-fe99aa.netlify.app/">
+                            <img
+                                src={PKMNCard}
+                                alt="line art of two pokemon cards "
+                                className="icon"
+                            />
+                        </a>
+                    </div>
+
                     <a href="https://liveversion--gleeful-sprite-fe99aa.netlify.app/">
                         <h3>Pokemon Card Database</h3>
                     </a>
@@ -57,13 +84,15 @@ export default function Projects() {
                     </p>
                 </li>
                 <li className="project">
-                    <a href="https://anime-finder.kortney.site">
-                        <img
-                            src={AnimeApp}
-                            alt="line art of heart"
-                            className="icon"
-                        />
-                    </a>
+                    <div className="iconContainer">
+                        <a href="https://anime-finder.kortney.site">
+                            <img
+                                src={AnimeApp}
+                                alt="line art of heart"
+                                className="icon"
+                            />
+                        </a>
+                    </div>
 
                     <a href="https://anime-finder.kortney.site">
                         <h3>Anime Finder App</h3>
@@ -79,13 +108,16 @@ export default function Projects() {
                     </p>
                 </li>
                 <li className="project">
-                    <a href="https://pokemon-battle.kortney.site">
-                        <img
-                            src={PokeBattle}
-                            alt="line art of pokeball"
-                            className="icon"
-                        />
-                    </a>
+                    <div className="iconContainer">
+                        <a href="https://pokemon-battle.kortney.site">
+                            <img
+                                src={PokeBattle}
+                                alt="line art of pokeball"
+                                className="icon"
+                            />
+                        </a>
+                    </div>
+
                     <a href="https://pokemon-battle.kortney.site">
                         <h3>Pokemon Battle</h3>
                     </a>
@@ -100,13 +132,15 @@ export default function Projects() {
                     </p>
                 </li>
                 <li className="project">
-                    <a href="https://tip-calc.kortney.site">
-                        <img
-                            src={Calculator}
-                            alt="line art of calculator"
-                            className="icon"
-                        />
-                    </a>
+                    <div className="iconContainer">
+                        <a href="https://tip-calc.kortney.site">
+                            <img
+                                src={Calculator}
+                                alt="line art of calculator"
+                                className="icon"
+                            />
+                        </a>
+                    </div>
 
                     <a href="https://tip-calc.kortney.site">
                         <h3>Tip Calulator</h3>
@@ -117,27 +151,6 @@ export default function Projects() {
                         people splitting the bill
                         <br></br>
                         Made with React.
-                    </p>
-                </li>
-                <li className="project">
-                    <a href="https://what-to-eat.kortney.site">
-                        <img
-                            src={WhatToEat}
-                            alt="line art of fork and knife"
-                            className="icon"
-                        />
-                    </a>
-                    <a href="https://what-to-eat.kortney.site">
-                        <h3>What to Eat Tonight</h3>
-                    </a>
-
-                    <p>
-                        Hits an API to generate a random recipe that answers the
-                        question, what to eat tonight? Displays type of food,
-                        full recipe and instructions.
-                        <br></br>
-                        Made with React. Intergrated XML Podcast feed and used
-                        Netlify form submission features.
                     </p>
                 </li>
             </ul>

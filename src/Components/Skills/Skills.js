@@ -30,10 +30,10 @@ export default function Skills() {
             <div className="skillsContent">
                 <p>
                     I started learning how to program by making a text-based
-                    choose-your-own-adventure game in Python. Its a far cry from
+                    choose-your-own-adventure game in Python. It's a far cry from
                     Game of the Year, but it made me realize I wanted to become
                     a programmer. Following that, I more seriously started
-                    delveoping my knowledge of HTML, CSS and Javascript with
+                    developing my knowledge of HTML, CSS and Javascript with
                     online challenges such as JS30, FreeCodeCamp and Scrimba. I
                     also continued making more projects from scratch. I've
                     completed almost 40 projects so far!

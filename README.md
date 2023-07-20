@@ -42,4 +42,4 @@ https://www.kortney.site
 
 ## License
 
-Copyright (c) _2022_ _Kortney Foley_
+Copyright (c) _2023_ _Kortney Foley_
