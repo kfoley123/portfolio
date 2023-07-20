@@ -20,8 +20,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
+    justify-content: flex-start;
 }
 
 .project>a {
@@ -32,8 +31,6 @@
 .project>a:hover {
     text-decoration: underline;
     color: #8968ac;
-
-
 }
 
 .icon {
@@ -42,7 +39,6 @@
     width: 200px;
     border: 1px solid #636363;
     object-fit: contain;
-
 }
 
 .icon:hover {
@@ -50,11 +46,9 @@
 }
 
 .iconContainer {
-
     height: 205px;
     width: 205px;
     align-self: center;
-
 }
 
 .buttonContainer {
