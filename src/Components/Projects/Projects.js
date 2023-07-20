@@ -30,7 +30,7 @@ export default function Projects() {
                     <p>
                         A mobile app showcasing some UI features that I built in React
                         Native. The user creates a new profile using a First Run
-                        Wizard on first use of the app and keeps the data in
+                        Wizard on the initial load of the app and keeps the data in
                         local storage. Existing users can log back in to update
                         their settings.
                         <br></br>
