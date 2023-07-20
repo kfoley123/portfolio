@@ -29,7 +29,7 @@ export default function Projects() {
                     </a>
                     <p>
                         A mobile app showcasing some UI features that I built in React
-                        native. User creates a new profile through a First Run
+                        Native. The user creates a new profile using a First Run
                         Wizard on first use of the app and keeps the data in
                         local storage. Existing users can log back in to update
                         their settings.
