@@ -2,7 +2,7 @@ import React from "react";
 import "./Projects.css";
 import PokeBattle from "../../Images/pokemonBattle.png";
 import AnimeApp from "../../Images/AnimeApp.png";
-import WhatToEat from "../../Images/WhatToEat.png";
+import WizardHat from "../../Images/wizardHat.jpg";
 import Calculator from "../../Images/Calculator.png";
 import podcast from "../../Images/HUGELogo.png";
 import PKMNCard from "../../Images/pokemoncard.png";
@@ -14,11 +14,35 @@ export default function Projects() {
             <hr className="horizontalRule"></hr>
             <ul className="projectsContainer">
                 <li className="project">
+                    <a href="https://github.com/kfoley123/FirstRunWiz/blob/main/README.md/">
+                        <div>
+                            <img
+                                src={WizardHat}
+                                alt="wizardHatLogo"
+                                className="icon"
+                            />
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/kfoley123/FirstRunWiz/blob/main/README.md/">
+                        <h3>First Run Wizard Demo </h3>
+                    </a>
+                    <p>
+                        Mobile app showcasing some UI features I built in react
+                        native. User creates a new profile through a First Run
+                        Wizard on first use of the app and keeps the data in
+                        local storage. Existing users can log back in to update
+                        their settings.
+                        <br></br>
+                        Made with React Native and TypeScript.
+                    </p>
+                </li>
+                <li className="project">
                     <a href="https://www.hoppedupeast.com/">
                         <div>
                             <img
                                 src={podcast}
-                                alt="airplane silhouette"
+                                alt="HUGElogo"
                                 className="icon"
                             />
                         </div>
@@ -117,27 +141,6 @@ export default function Projects() {
                         people splitting the bill
                         <br></br>
                         Made with React.
-                    </p>
-                </li>
-                <li className="project">
-                    <a href="https://what-to-eat.kortney.site">
-                        <img
-                            src={WhatToEat}
-                            alt="line art of fork and knife"
-                            className="icon"
-                        />
-                    </a>
-                    <a href="https://what-to-eat.kortney.site">
-                        <h3>What to Eat Tonight</h3>
-                    </a>
-
-                    <p>
-                        Hits an API to generate a random recipe that answers the
-                        question, what to eat tonight? Displays type of food,
-                        full recipe and instructions.
-                        <br></br>
-                        Made with React. Intergrated XML Podcast feed and used
-                        Netlify form submission features.
                     </p>
                 </li>
             </ul>
