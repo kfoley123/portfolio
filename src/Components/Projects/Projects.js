@@ -28,11 +28,11 @@ export default function Projects() {
                         <h3>First Run Wizard Demo </h3>
                     </a>
                     <p>
-                        A mobile app showcasing some UI features that I built in React
-                        Native. The user creates a new profile using a First Run
-                        Wizard on the initial load of the app and keeps the data in
-                        local storage. Existing users can log back in to update
-                        their settings.
+                        A mobile app showcasing some UI features that I built in
+                        React Native. The user creates a new profile using a
+                        First Run Wizard on the initial load of the app and
+                        keeps the data in local storage. Existing users can log
+                        back in to update their settings.
                         <br></br>
                         Made with React Native and TypeScript.
                     </p>
