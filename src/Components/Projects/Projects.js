@@ -14,15 +14,15 @@ export default function Projects() {
             <hr className="horizontalRule"></hr>
             <ul className="projectsContainer">
                 <li className="project">
-                    <a href="https://github.com/kfoley123/FirstRunWiz/blob/main/README.md/">
-                        <div>
+                    <div className="iconContainer">
+                        <a href="https://github.com/kfoley123/FirstRunWiz/blob/main/README.md/">
                             <img
                                 src={WizardHat}
                                 alt="wizardHatLogo"
                                 className="icon"
                             />
-                        </div>
-                    </a>
+                        </a>
+                    </div>
 
                     <a href="https://github.com/kfoley123/FirstRunWiz/blob/main/README.md/">
                         <h3>First Run Wizard Demo </h3>
@@ -38,15 +38,15 @@ export default function Projects() {
                     </p>
                 </li>
                 <li className="project">
-                    <a href="https://www.hoppedupeast.com/">
-                        <div>
+                    <div className="iconContainer">
+                        <a href="https://www.hoppedupeast.com/">
                             <img
                                 src={podcast}
                                 alt="HUGElogo"
                                 className="icon"
                             />
-                        </div>
-                    </a>
+                        </a>
+                    </div>
 
                     <a href="https://www.hoppedupeast.com/">
                         <h3>Hopped Up Gaming: East Website</h3>
@@ -60,13 +60,16 @@ export default function Projects() {
                     </p>
                 </li>
                 <li className="project">
-                    <a href="https://liveversion--gleeful-sprite-fe99aa.netlify.app/">
-                        <img
-                            src={PKMNCard}
-                            alt="line art of two pokemon cards "
-                            className="icon"
-                        />
-                    </a>
+                    <div className="iconContainer">
+                        <a href="https://liveversion--gleeful-sprite-fe99aa.netlify.app/">
+                            <img
+                                src={PKMNCard}
+                                alt="line art of two pokemon cards "
+                                className="icon"
+                            />
+                        </a>
+                    </div>
+
                     <a href="https://liveversion--gleeful-sprite-fe99aa.netlify.app/">
                         <h3>Pokemon Card Database</h3>
                     </a>
@@ -81,13 +84,15 @@ export default function Projects() {
                     </p>
                 </li>
                 <li className="project">
-                    <a href="https://anime-finder.kortney.site">
-                        <img
-                            src={AnimeApp}
-                            alt="line art of heart"
-                            className="icon"
-                        />
-                    </a>
+                    <div className="iconContainer">
+                        <a href="https://anime-finder.kortney.site">
+                            <img
+                                src={AnimeApp}
+                                alt="line art of heart"
+                                className="icon"
+                            />
+                        </a>
+                    </div>
 
                     <a href="https://anime-finder.kortney.site">
                         <h3>Anime Finder App</h3>
@@ -103,13 +108,16 @@ export default function Projects() {
                     </p>
                 </li>
                 <li className="project">
-                    <a href="https://pokemon-battle.kortney.site">
-                        <img
-                            src={PokeBattle}
-                            alt="line art of pokeball"
-                            className="icon"
-                        />
-                    </a>
+                    <div className="iconContainer">
+                        <a href="https://pokemon-battle.kortney.site">
+                            <img
+                                src={PokeBattle}
+                                alt="line art of pokeball"
+                                className="icon"
+                            />
+                        </a>
+                    </div>
+
                     <a href="https://pokemon-battle.kortney.site">
                         <h3>Pokemon Battle</h3>
                     </a>
@@ -124,13 +132,15 @@ export default function Projects() {
                     </p>
                 </li>
                 <li className="project">
-                    <a href="https://tip-calc.kortney.site">
-                        <img
-                            src={Calculator}
-                            alt="line art of calculator"
-                            className="icon"
-                        />
-                    </a>
+                    <div className="iconContainer">
+                        <a href="https://tip-calc.kortney.site">
+                            <img
+                                src={Calculator}
+                                alt="line art of calculator"
+                                className="icon"
+                            />
+                        </a>
+                    </div>
 
                     <a href="https://tip-calc.kortney.site">
                         <h3>Tip Calulator</h3>

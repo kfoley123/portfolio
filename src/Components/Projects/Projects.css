@@ -18,16 +18,22 @@
     width: 350px;
     padding: 50px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
-.project > a {
+.project>a {
     text-decoration: none;
     color: inherit;
 }
 
-.project > a:hover {
+.project>a:hover {
     text-decoration: underline;
     color: #8968ac;
+
+
 }
 
 .icon {
@@ -36,11 +42,21 @@
     width: 200px;
     border: 1px solid #636363;
     object-fit: contain;
+
 }
 
 .icon:hover {
-    border: 5px solid #8968ac;
+    border: 3px solid #8968ac;
 }
+
+.iconContainer {
+
+    height: 205px;
+    width: 205px;
+    align-self: center;
+
+}
+
 .buttonContainer {
     display: flex;
     justify-content: center;
@@ -62,7 +78,7 @@ button:hover {
 }
 
 @media only screen and (max-width: 500px) {
-    .project > p {
+    .project>p {
         text-align: left;
     }
 }
