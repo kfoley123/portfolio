@@ -57,7 +57,7 @@ export default function Skills() {
                 </p>
 
                 <p>
-                    After starting out through self-learning, I chose to formalize my education to strengthen my foundation. I recently graduated with honours from the IT Web Programming program at NSCC and am currently completing my second work term at Resulta, gaining real-world experience in a collaborative office environment. I'm passionate about continuing to learn and growing as a developer.
+                    After starting out through self-learning, I chose to formalize my education to strengthen my foundation. I recently graduated with honours from IT Web Programming at NSCC and am currently completing my second work term at Resulta, gaining real-world experience in a collaborative office environment. I'm passionate about continuing to learn and growing as a developer.
                 </p>
             </div>
 
