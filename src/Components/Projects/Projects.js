@@ -1,9 +1,8 @@
 import React from "react";
 import "./Projects.css";
 import PokeBattle from "../../Images/pokemonBattle.png";
-import AnimeApp from "../../Images/AnimeApp.png";
+import Wave from "../../Images/wave.png";
 import WizardHat from "../../Images/wizardHat.jpg";
-import Calculator from "../../Images/Calculator.png";
 import podcast from "../../Images/HUGELogo.png";
 import PKMNCard from "../../Images/pokemoncard.png";
 
@@ -13,6 +12,28 @@ export default function Projects() {
             <h2 className="projectsTitle">Projects</h2>
             <hr className="horizontalRule"></hr>
             <ul className="projectsContainer">
+           
+            <li className="project">
+                    <div className="iconContainer">
+                        <a href="https://webd3031-project-beachreport.vercel.app/">
+                            <img
+                                src={Wave}
+                                alt="waveLogo"
+                                className="icon"
+                            />
+                        </a>
+                    </div>
+
+                    <a href="https://webd3031-project-beachreport.vercel.app/">
+                        <h3>Shorecast - Nova Scotia's Beach Report </h3>
+                    </a>
+                    <p>
+                    Capstone project for my Web Development program, built with two teammates using Agile. Users can view and submit beach condition reports, including water temperature and weather. Subscribers can access a beach map, and admins can view reports on beaches, users, and income.
+                        <br></br>
+                        Made with NextJS, TypeScript, Neon and Prisma. Hosted on Vercel.
+                    </p>
+                </li>
+
                 <li className="project">
                     <div className="iconContainer">
                         <a href="https://github.com/kfoley123/FirstRunWiz/blob/main/README.md/">
@@ -83,30 +104,7 @@ export default function Projects() {
                         Made with React, SQlite and Django.
                     </p>
                 </li>
-                <li className="project">
-                    <div className="iconContainer">
-                        <a href="https://anime-finder.kortney.site">
-                            <img
-                                src={AnimeApp}
-                                alt="line art of heart"
-                                className="icon"
-                            />
-                        </a>
-                    </div>
-
-                    <a href="https://anime-finder.kortney.site">
-                        <h3>Anime Finder App</h3>
-                    </a>
-
-                    <p>
-                        Hits an anime API that allows you to search for anime
-                        titles by keyword, rating, production type and/or airing
-                        status. Hover view lets you read synopsis and watch the
-                        trailer.
-                        <br></br>
-                        Made with React.
-                    </p>
-                </li>
+              
                 <li className="project">
                     <div className="iconContainer">
                         <a href="https://pokemon-battle.kortney.site">
@@ -127,28 +125,6 @@ export default function Projects() {
                         Selects a random pokemon for each player and opponents
                         attacks are chosen randomly too! Battle until one player
                         is KO-ed!
-                        <br></br>
-                        Made with React.
-                    </p>
-                </li>
-                <li className="project">
-                    <div className="iconContainer">
-                        <a href="https://tip-calc.kortney.site">
-                            <img
-                                src={Calculator}
-                                alt="line art of calculator"
-                                className="icon"
-                            />
-                        </a>
-                    </div>
-
-                    <a href="https://tip-calc.kortney.site">
-                        <h3>Tip Calulator</h3>
-                    </a>
-                    <p>
-                        Calculator that lets you know how much each person owes
-                        after selecting a tip percentage and the number of
-                        people splitting the bill
                         <br></br>
                         Made with React.
                     </p>
