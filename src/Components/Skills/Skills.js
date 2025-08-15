@@ -57,15 +57,7 @@ export default function Skills() {
                 </p>
 
                 <p>
-                    The most recent project I've completed is a website made
-                    with React for a local beer and gaming podcast (linked
-                    above). It was my first experience as a freelancer and also
-                    my first time working with XML data, so it was a great
-                    opportunity to learn. I'm currently working on another
-                    freelance project, this time using React Native to create a
-                    scheduling app for a local business. I'm very eager to
-                    continue learning and developing my skills to become the
-                    best programmer I can!
+                    After starting out through self-learning, I chose to formalize my education to strengthen my foundation. I recently graduated with honours from the IT Web Programming program at NSCC and am currently completing my second work term at Resulta, gaining real-world experience in a collaborative office environment. I'm passionate about continuing to learn and growing as a developer.
                 </p>
             </div>
 
