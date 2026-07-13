@@ -28,7 +28,7 @@ I designed this app to be a showcase of my projects and skills as a Full-Stack d
 
 ## Netlify Link
 
-https://www.kortney.site
+[https://www.kortney.website](https://www.kortney.website/)
 
 ---
 
